@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+		<!--
+<script src="js/jquery-1.10.2.min.js"></script>
+ -->
+		<script type="text/javascript" src="init_doodles.js"></script>
+		<script type="text/javascript" src="portfolio.js"></script>
+		<title>Oodles of Doodles</title>
+	</head>
+
+	<body onLoad="load();">
+		<div id="loading">
+			<p>
+				Loading...<br /> Please standby while images are preloaded.
+			</p>
+			<img alt="Loading..." src="ajax-loader.gif" />
+		</div>
+		<div id="main">
+			<br />
+			<div id="header">
+				<div id="addtoany">
+					<a class="a2a_dd" href="http://www.addtoany.com/share_save?linkname=doodles&amp;linkurl=http%3A%2F%2Ffofolabs.com%2Fdoodles"><img
+							src="http://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share/Save/Bookmark" /> </a>
+					<script type="text/javascript">
+						a2a_linkname = "Oodles of Doodles";
+						a2a_linkurl = "https://fofolabslabs.com/doodles";
+					</script>
+					<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+				</div>
+				<span id="title">Oodles of Doodles</span>
+				<table id="micropayment">
+					<tr>
+						<td>
+							<img height="30" alt="BTC accepted" src="bitcoin-accepted.png" />&nbsp;&nbsp;
+						</td>
+						<td>
+							<a href="bitcoin:1MszmyxbX6ttJUwWHGQkHCtapowEi8F7qx?amount=0.001&label=microlove">
+								Send me some love! Click here to transfer 0.001 Bitcoin.
+							</a>
+						</td>
+					</tr>
+				</table>
+				<p>I often get asked how these images were made, so I made this site to provide some explanations.</p>
+				<p>
+					They are drawn by hand using mostly colored pens, then scanned and filled using <a href="http://www.gimp.org/">GIMP</a>. I especially like the
+					"dissolve" and "burn" fill effects. Mouseover the images below to see what I mean.</p>
+				<p>
+					Then one day, I realized it would be possible to improve on this process by automating the tracing of contours. I'm in IT, and that's just what we
+					do. To this end, I've created the <span class="pulsate"><a href="http://fofolabslabs.com/Doodler/html">Doodler</a></span>. Some of the images below have
+					no original
+					paper form because they were created using the Doodler.
+				</p>
+				<p id="orderInfo">
+					If you're interested in owning a large print of one of these images, please <a href="mailto:fofofeedback@runbox.com">contact me</a> and let me know. Most sizes
+					are
+					available for less than 30 Euros.
+				</p>
+				<div id="byline">
+					Created with love by <a href="mailto:fofofeedback@runbox.com">Marc A. Donis</a>.
+				</div>
+			</div>
+			<div id="images">Looks like JavaScript is not working in your browser...</div>
+			<div id="footer">
+				<hr />
+			</div>
+		</div>
+		<script type="text/javascript">
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-42282612-1', 'fofolabs.com');
+			ga('send', 'pageview');
+		</script>
+	</body>
+
+</html>
